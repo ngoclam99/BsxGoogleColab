@@ -1,11 +1,38 @@
-yolov5/
+# Ignore cache files
 check_cache/
-/draw_image.py
-/test.py
-/res.jpg
 cache.jpg
 cache_ch.jpg
 edge.jpg
 line.jpg
 crop.jpg
+
+# Ignore temporary files
+/draw_image.py
+/test.py
+/res.jpg
+
+# Ignore virtual environment
 /venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Keep important directories for Colab
+# yolov5/ - REMOVED from ignore (needed for Colab)
+# model/ - Keep models (needed for inference)
+# function/ - Keep helper functions
+# test_image/ - Keep test images
