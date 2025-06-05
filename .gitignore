@@ -1,5 +1,4 @@
 yolov5/
-test_image/
 check_cache/
 /draw_image.py
 /test.py
@@ -9,3 +8,4 @@ cache_ch.jpg
 edge.jpg
 line.jpg
 crop.jpg
+/venv
